@@ -1,0 +1,399 @@
+
+
+.body{
+  font:15px Arial, Helvetica,sans-serif; 
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+a{
+	text-decoration: none;
+}
+/* General Styles */
+
+.container{
+  width:90%; 
+  margin:auto;
+  overflow:hidden;
+}
+
+.container__title{
+  font-size:22px;
+  margin-top:50px;
+}
+
+/* Header */
+
+.header{
+  background:#fff;
+  display:flex;
+  position:fixed;
+  width:100%;
+  padding:14px 2px;
+  z-index:3;
+  box-shadow:-6px 8px 6px -6px #333;
+  border-radius:0;
+}
+
+.navbar{
+  float:right;
+  margin-top:8px; 
+}
+
+.menu{
+  margin:0;
+  padding:0;
+}
+
+.menu__item{
+  float:left;
+  display:inline;
+  padding:0 16px 0 16px; 
+}
+
+.menu__link{
+  color:#000;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px; 
+  margin-left: 0;
+}
+
+.menu__link:hover{
+  color:#1293d4;
+  font-weight:bold;
+}
+
+/* Masthead */
+.bot{
+	margin-top: 35%;
+	position: fixed;
+	
+	
+}
+.bot li:hover{
+	background-color: #ff6f62;
+}
+.bot li{
+	background-color: #009788;
+	padding: 15px 5px;
+	margin-top: 10%;
+	border-radius:20px 0 20px 20px;
+}
+.bot a{
+	color:white;
+	font-size: 18px;
+}
+
+.masthead{
+  min-height:500px;
+  background-image:url(https://assets3.thrillist.com/v1/image/2848840/size/gn-gift_guide_variable_c.jpg); 
+  color:#fff;
+}
+
+.masthead__title{
+  margin-top:200px;
+  margin-bottom:15px;
+  font-size:40px;
+  font-weight:500;
+}
+
+.masthead__description{
+  font-size:20px;
+}
+
+/* Newsletter */
+
+.newsletter{
+  padding:15px;
+  color:#000;
+  background:#fff;
+}
+
+.newsletter__title{
+  float:left;
+  font-size:20px;
+}
+
+.newsletter-form{
+  float:right;
+  margin-top:15px;
+}
+
+.newsletter__input{
+  width:100%;
+  height:35px;
+  border:1px solid #808080;
+  margin-bottom:5px; 
+  border-radius: 4px;
+  background-color:#fff;
+  color:#000;
+ }
+
+.newsletter__input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+  color:#fff;
+}
+
+.newsletter__input:focus{
+  outline:none; 
+  border:1px solid #58bff6; 
+  color:#000;
+ }
+
+.btn-submit{
+  height:35px;
+  background:#1293d4;
+  border-radius:4px;  
+  border:0;
+  padding-left:20px;
+  padding-right:20px;
+  color:#fff;
+}
+
+.btn-submit:hover{
+  background:#32b0ee;
+}
+
+.btn-submit:focus{
+  outline:none; 
+}
+
+/* Services */
+
+.services{
+  margin-bottom:70px;
+}
+
+.service{
+  float:left;
+  text-align:center;
+  width:30%;
+  padding:10px;
+}
+
+.service__icon{
+  color:#4169e1;
+  font-size:350%;
+  text-align:center;
+  padding-top:10%;
+}
+
+/* About */
+
+.about{
+  background-color:#fff;
+  margin-bottom: 50px
+}
+
+.contented img{
+	width:80%;
+	margin-left: 
+}
+.contented h4{
+	color: white;
+	background:orange;
+	border-radius:20px;
+	width: 20%;
+	padding: 6px 2px;
+	margin-left: 45%;
+	border:0.6px solid red;
+	}
+.article-col{
+  float:left;
+  width:55%;  
+}
+
+.article-col__description{
+  text-align:justify;
+}
+
+.aside{
+  float:right;
+  width:38%;
+  margin-top:10px;
+}
+
+.container-aside{
+  margin-bottom:50px;
+}
+
+/* Contact Form */
+
+.contact-form__label{
+  color:#808080;
+  font-weight:bold;
+  margin-bottom: 50px;
+}
+
+.newsletter__input--contact-form-textarea{
+  height:120px;
+}
+
+.newsletter__input--contact-form-textarea:focus{
+  outline:none; 
+  border:1px solid #58bff6; 
+  color:#000;   
+ }
+ 
+.btn-submit--contact-form{
+  margin-bottom:50px;
+  width:101%;
+}
+
+.btn-submit--contact-form:focus{
+  outline:none; 
+}
+
+/* Social */
+
+.icons-social{
+  text-align:center;
+  padding:5px;
+}
+
+.menu--list-social{
+  list-style-type:none;
+}
+
+.icons-social__item{
+  display:inline;
+}
+
+.icons-social__i{
+  font-size:23px;
+  color:#444442;
+  padding:10px;
+  transition:all 0.3s linear;  
+}
+
+.icons-social__i:hover{
+  color:green;
+  transform:translateY(-7px);
+}
+
+/* Footer */
+
+.footer{
+  padding:40px;  
+  color:#444442;
+  background-color:#111;
+  text-align:center;
+}
+
+.container-footer__link{
+  color:#444442;
+  text-decoration:none;
+}
+
+.container-footer__link:hover{
+  color:#fff;
+}
+
+/* Media Queries */
+
+@media(max-width: 800px){
+  .header{
+	padding-bottom:20px;
+  }
+
+  .navbar{
+	text-align:center; 
+	width:100%; 
+	padding:0 5px;
+  }
+  
+  .menu__item{
+	float:none; 
+	text-align:center; 
+	width:100%; 
+  }
+	
+  .service{
+	width:100%;
+	padding:0;
+	text-align:center;
+	float:none;
+  }
+	  
+  .newsletter__title{
+	float:none; 
+	text-align:center; 
+	width:100%; 
+	margin-top:40px;
+  }
+  
+  .newsletter-form{
+	float:none; 
+	text-align:center; 
+	width:100%; 
+  }
+  
+  .newsletter__input{
+	width:98%;
+  }
+  
+  .newsletter__input[type="email"]{
+	width:98%;
+	margin-bottom:5px;
+  }
+  
+  .btn-submit{
+	display:block;
+	width:100%;
+  }
+  
+  .article-col{
+	float:none;
+	text-align:center;
+	width:100%;
+  }
+  
+  .aside{
+	width:100%; 
+	float:none;
+	text-align:center;
+	padding-bottom:20px;
+  }
+  
+  .container-aside{
+	margin-top:20px;
+	width:100%;
+	padding:0;
+  }
+
+  .btn-submit--contact-form{
+	width:100%;
+  }
+}
+
+@media (max-width: 450px){
+  .menu__item{
+	padding:0px 4px 0px 4px;
+  }
+
+  .menu__link{
+	font-size:13px;
+  }
+  
+  .masthead__title{
+	font-size:45px;
+  }
+
+  .masthead__description{
+	font-size:17px;
+  }
+  
+  .newsletter__input[type="email"]{
+	width:96%;
+  }
+  
+  .container-aside{
+	width:100%;
+  }
+  .container-aside__img{
+	height:436px;	 
+  }
+}
